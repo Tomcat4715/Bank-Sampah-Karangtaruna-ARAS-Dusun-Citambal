@@ -552,7 +552,7 @@
             <div class="member-info">
                 <div class="member-avatar">👤</div>
                 <div class="member-details">
-                    <h3>Budi Santoso</h3>
+                    <h3>Ajis Abdul Jabar</h3>
                     <div class="member-id">ID: ARAS-001</div>
                 </div>
             </div>
