@@ -537,7 +537,7 @@
     <div class="app-container">
         <!-- Header -->
         <div class="header">
-            <div class="achievement-badge">🏆 ECO HERO</div>
+            <div class="achievement-badge">🏆 ®™ rung's</div>
             <div class="logo-container">
                 <div class="logo">♻️</div>
                 <div>
