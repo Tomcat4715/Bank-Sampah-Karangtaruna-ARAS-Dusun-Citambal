@@ -787,7 +787,7 @@
             showModal(
                 '♻️',
                 'Setor Sampah',
-                'Fitur untuk menyetor sampah ke Bank Sampah ARAS. Pastikan sampah sudah dipilah sesuai kategori:\n\n• Plastik: Rp 5.000/kg\n• Kertas: Rp 2.000/kg\n• Botol: Rp 3.000/kg\n• Kaleng: Rp 8.000/kg\n\nJadwal penyetoran: Senin & Kamis jam 08:00-16:00'
+                'Fitur untuk menyetor sampah ke Bank Sampah ARAS. Pastikan sampah sudah dipilah sesuai kategori: • Plastik: Rp 5.000/kg • Kertas: Rp 2.000/kg • Botol: Rp 3.000/kg • Kaleng: Rp 8.000/kg Jadwal penyetoran: Senin & Kamis jam 08:00-16:00'
             );
         }
 
@@ -795,7 +795,7 @@
             showModal(
                 '💰',
                 'Tarik Saldo',
-                `Saldo tersedia: Rp ${currentBalance.toLocaleString('id-ID')}\n\nMinimal penarikan: Rp 25.000\nBiaya admin: Rp 2.500\n\nSaldo dapat ditarik tunai atau transfer ke rekening bank yang terdaftar.`
+                `Saldo tersedia: Rp ${currentBalance.toLocaleString('id-ID')} Minimal penarikan: Rp 25.000 Biaya admin: Rp 2.500 Saldo dapat ditarik tunai atau transfer ke rekening bank yang terdaftar.`
             );
         }
 
@@ -803,16 +803,16 @@
             showModal(
                 '📊',
                 'Riwayat Transaksi',
-                'Melihat semua transaksi penyetoran dan penarikan sampah. Data mencakup:\n\n• Tanggal dan waktu\n• Jenis sampah\n• Berat sampah\n• Nilai rupiah\n• Status transaksi\n\nData tersimpan hingga 2 tahun terakhir.'
+                'Melihat semua transaksi penyetoran dan penarikan sampah. Data mencakup: • Tanggal dan waktu • Jenis sampah • Berat sampah • Nilai rupiah • Status transaksi Data tersimpan hingga 2 tahun terakhir.'
             );
         }
 
         function showCatalog() {
-            let catalogText = 'Daftar Harga Sampah Bank Sampah ARAS:\n\n';
+            let catalogText = 'Daftar Harga Sampah Bank Sampah ARAS: ';
             wasteCategories.forEach(category => {
-                catalogText += `${category.icon} ${category.name}: Rp ${category.price.toLocaleString('id-ID')}/${category.unit}\n`;
+                catalogText += `${category.icon} ${category.name}: Rp ${category.price.toLocaleString('id-ID')}/${category.unit} `;
             });
-            catalogText += '\n*Harga dapat berubah sewaktu-waktu\n**Sampah harus dalam kondisi bersih';
+            catalogText += ' *Harga dapat berubah sewaktu-waktu **Sampah harus dalam kondisi bersih';
             
             showModal('📋', 'Katalog Harga Sampah', catalogText);
         }
@@ -821,7 +821,7 @@
             showModal(
                 '📚',
                 'Edukasi Lingkungan',
-                'Program edukasi Bank Sampah ARAS:\n\n🌱 Workshop Pengolahan Sampah\n🌱 Pelatihan Kompos Organik\n🌱 Sosialisasi 3R (Reduce, Reuse, Recycle)\n🌱 Kampanye Lingkungan Bersih\n🌱 Kelas Daur Ulang Kreatif\n\nJadwal: Setiap Sabtu jam 14:00-16:00'
+                'Program edukasi Bank Sampah ARAS: 🌱 Workshop Pengolahan Sampah 🌱 Pelatihan Kompos Organik 🌱 Sosialisasi 3R (Reduce, Reuse, Recycle) 🌱 Kampanye Lingkungan Bersih 🌱 Kelas Daur Ulang Kreatif Jadwal: Setiap Sabtu jam 14:00-16:00'
             );
         }
 
@@ -829,4 +829,4 @@
             showModal(
                 '👥',
                 'Komunitas ARAS',
-                'Bergabung dengan komunitas peduli lingkungan:\n\n👨‍👩‍👧‍👦 Member Aktif: 127 keluarga\n🏆 Eco Hero: 23 member\n🌟 Reward Points: Program poin\n📱 Grup WhatsApp: Diskusi & info\n🎉 Event Bulanan: Gotong royong\n\nBersama wuju
+                'Bergabung dengan komunitas peduli lingkungan: 👨‍👩‍👧‍👦 Member Aktif: 127 keluarga 🏆 ®™ rung's: 23 member 🌟 Reward Points: Program poin 📱 Grup WhatsApp: Diskusi & info 🎉 Event Bulanan: Gotong royong Bersama wujudkan cita-cita.
